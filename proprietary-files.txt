@@ -147,7 +147,6 @@ vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model_front.dlc
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 vendor/etc/scve/facereco/gModel.dat
-vendor/lib/hw/camera.sdm660.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libMegviiFacepp-0.5.2.so
 vendor/lib/libSNPE.so
@@ -157,13 +156,8 @@ vendor/lib/libVDClearShot.so
 vendor/lib/libVDSuperPhotoAPI.so
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/lib_lowlight.so
-vendor/lib/libarcsoft_beautyshot.so
-vendor/lib/libarcsoft_dualcam_refocus.so
-vendor/lib/libarcsoft_high_dynamic_range.so
-vendor/lib/libarcsoft_supernight.so
 vendor/lib/libc++_shared.so
 vendor/lib/libcamera_scene.so
-vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libmegface.so
 vendor/lib/libmibokeh_660.so
@@ -173,7 +167,6 @@ vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_hvx_add_constant.so
 vendor/lib/libmmcamera_hvx_grid_sum.so
-vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_le2464c_eeprom.so
 vendor/lib/libmmcamera_le2464c_master_eeprom.so
 vendor/lib/libmmcamera_mg_facepp_lib.so
@@ -182,10 +175,7 @@ vendor/lib/libmmcamera_sunny_ov13855_eeprom.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib/libmmjpeg_interface.so
-vendor/lib/libmmlib2d_interface.so
 vendor/lib/libmpbase.so
-vendor/lib/libqomx_core.so
 vendor/lib/libscveBlobDescriptor.so
 vendor/lib/libscveBlobDescriptor_stub.so
 vendor/lib/libscveCommon.so

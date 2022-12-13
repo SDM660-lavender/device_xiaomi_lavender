@@ -32,6 +32,11 @@ TARGET_SCREEN_WIDTH := 1080
 
 BOARD_HAVE_IR := true
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.sdm660 \
+    libmm-qcamera
+
 # Device properties
 $(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
 
