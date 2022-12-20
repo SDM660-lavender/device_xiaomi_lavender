@@ -28,8 +28,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit some common Pixel-Experience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -42,7 +42,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys"
 
 # Device identifier
-PRODUCT_NAME := aosp_lavender
+PRODUCT_NAME := lineage_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
@@ -52,9 +52,3 @@ PRODUCT_MODEL := Redmi Note 7
 TARGET_VENDOR_PRODUCT_NAME := lavender
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# PixelExperience Stuffs
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
